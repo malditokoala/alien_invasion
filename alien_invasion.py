@@ -25,7 +25,6 @@ class AlienInvasion:
         self.aliens = pygame.sprite.Group()
         self._create_fleet()
 
-
     def run_game(self):
         """Start the main loop for the game."""
         while True:
