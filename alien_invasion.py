@@ -119,6 +119,7 @@ class AlienInvasion:
                 self.bullets.remove(bullet)
         self._check_bullet_alien_collisions()
 
+
     def _check_bullet_alien_collisions(self):
         """Respond to bullet-alien collisions."""
         # Remove any bullets and aliens that have collided.
